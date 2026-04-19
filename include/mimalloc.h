@@ -329,7 +329,7 @@ mi_decl_export bool mi_abandoned_visit_blocks(mi_subproc_id_t subproc_id, int he
 
 // Experimental: objects followed by a guard page.
 // A sample rate of 0 disables guarded objects, while 1 uses a guard page for every object.
-// A seed of 0 uses a random start point. Only objects within the size bound are eligable for guard pages.
+// A seed of 0 uses a random start point. Only objects within the size bound are eligible for guard pages.
 mi_decl_export void mi_heap_guarded_set_sample_rate(mi_heap_t* heap, size_t sample_rate, size_t seed);
 mi_decl_export void mi_heap_guarded_set_size_bound(mi_heap_t* heap, size_t min, size_t max);
 
